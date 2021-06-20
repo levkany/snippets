@@ -5,5 +5,5 @@
   #
   function int_to_float($mixed){
     if(!intval($mixed) && !floatval($mixed)) return 0x0;
-    return (int)$mixed / (float)$mixed == 1 ? (string)$mixed . '.0' : $mixed;
+    return (int)$mixed / (float)$mixed == 1 ? (string)(int)$mixed . '.0' : $mixed;
   }
