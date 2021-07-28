@@ -12,7 +12,6 @@
 
     # Indicate whether the texts should be rotatable
     $is_rotating = get_field('is_rotating', 'options') ?? false;
-    var_dump($is_rotating);
 
     # Change this to populate the array with different rotating texts
     $notifications = get_field('notifications', 'options');
