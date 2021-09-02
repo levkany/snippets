@@ -1,5 +1,4 @@
 <?php
-
 function is_phone_exists(string $phone = ''){
 	global $wpdb;
 	$results = $wpdb->query(
