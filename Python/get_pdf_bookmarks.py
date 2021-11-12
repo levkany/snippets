@@ -11,6 +11,7 @@ def get_bookmarks(self, file):
         '''
         this function extract pdf file outlines / bookmarks into a parent:child format for easier usage in any frontend technologies
         big thanks for the developers of PyPDF2, without them, this function wouldn't exists :)
+        NOTE:: this function will only work after the pdf file has been "remerged" using the PdfMergerClass
         '''
 
         # TODO:: convert the bookmarks to Parent:Child format
